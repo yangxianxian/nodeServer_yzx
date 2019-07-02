@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "bin/www.js",
+  "bin": {
+    "yzxnodeServer":"./bin/www.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cross-env NODE_ENV=test nodemon ./bin/www.js"
